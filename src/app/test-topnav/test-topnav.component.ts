@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {Test1Component } from '../test1/test1.Component';
-import {Test2Component } from '../test2/test2.Component';
-import {Test3Component } from '../test3/test3.Component';
+import { Test1Component } from '../test1/test1.Component';
+import { Test2Component } from '../test2/test2.Component';
+import { Test3Component } from '../test3/test3.Component';
+import { HomeComponent } from '../home/home.Component';
 
 
 @Component({
