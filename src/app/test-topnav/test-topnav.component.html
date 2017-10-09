@@ -1,5 +1,19 @@
 <header>
-  instar
+
+<img src="assets/logo.png" alt="logo" class="logo">
+in★
 </header>
 
-<a href="home/" type = botton>home</a>
+<nav>
+<ul>
+  <h3>
+    <li><a [routerLink]="['test1']">Test1</a></li>
+    <li><a [routerLink]="['home']">Home</a></li>
+    <li><a [routerLink]="['card']">Card</a></li>
+  </h3>
+</ul>
+</nav>
+
+<br>
+<br>
+<router-outlet></router-outlet>

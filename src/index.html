@@ -1,16 +1,24 @@
 <!doctype html>
 <html lang="en">
-<head>
+<head np-app="ui.bootstrap.tuto">
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Angular</title>
-  <base href="/">
 
-  <link src="js/bootstrap.min.js" rel="stylesheet">
-   <link rel="icon" type="image/x-icon" href="fovicon.ico">
+  <script src="node_modules/angular/angular.min.js"></script>
+  <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+  <script scr="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" type = "text/css">
+
+  <script src="script.js"></script>
 </head>
+
 <body>
   <app-root></app-root>
+  <app-button></app-button>
 </body>
 </html>

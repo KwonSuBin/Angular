@@ -1,9 +1,37 @@
-Header {
-  padding-bottom: 10px;
+header {
   font-size: 40px;
-  padding-right: 800px;
+  text-align: center;
+  border-bottom-color: gray;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
 }
 
-a {
+h3 {
   font-style: italic;
+  text-align: center;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: 10px;
+  }
+
+header::after {
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  padding-top: 10px;
+
 }
